@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Roller</h1>
+        <div class="dice-images" id="diceImages">
+            <img src="images1/1.png" alt="Dice 1" class="dice-img" />
+            <img src="images1/2.png" alt="Dice 2" class="dice-img" />
+            <img src="images1/3.png" alt="Dice 3" class="dice-img" />
+            <img src="images1/4.png" alt="Dice 4" class="dice-img" />
+            <img src="images1/5.png" alt="Dice 5" class="dice-img" />
+            <img src="images1/6.png" alt="Dice 6" class="dice-img" />
+        </div>
+        <div class="dice" id="dice">
+            <img src="images1/1.png" alt="Dice" id="diceImage" />
+        </div>
+        <input type="number" id="numDice" value="1" min="1" max="6" />
+        <button id="rollButton">Roll the Dice</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <audio id="rollSound" src="sound/dice-roll.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
