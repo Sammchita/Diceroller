@@ -5,6 +5,7 @@ It is perfect for games, decisions and was made just for fun!
 
 ---
 ## Screenshots
+https://github.com/Sammchita/Diceroller/blob/main/Screenshot%20(209).png
 
 ---
 
